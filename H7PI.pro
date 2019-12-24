@@ -1,4 +1,4 @@
-update=2019/10/28 19:51:17
+update=2019/11/23 11:25:28
 version=1
 last_client=kicad
 [general]
@@ -12,16 +12,6 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
-[schematic_editor]
-version=1
-PageLayoutDescrFile=C:/kicad-lib/pinno-lib/template/pinno_frame_a4.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=D:/kicad-lib/pinno-lib/template/pinno_frame_a4.kicad_wks
@@ -258,3 +248,13 @@ uViaDrill=0.2
 dPairWidth=0.2
 dPairGap=0.152
 dPairViaGap=0.25
+[schematic_editor]
+version=1
+PageLayoutDescrFile=D:/dev/kicad-lib/pinno-lib/template/pinno_frame_a4.kicad_wks
+PlotDirectoryName=./H7PI.pdf
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1

@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "H7PI Zero"
-Date "2019-08-06"
+Title "H7PI"
+Date "2019-11-23"
 Rev "0.1"
-Comp "Taylar"
+Comp "HTCTEK"
 Comment1 "fuhua-chen"
 Comment2 "fuhua-chen"
 Comment3 ""
@@ -1180,7 +1180,7 @@ L capacitor:CL32A107MPVNNNE C10
 U 1 1 5E2E9FF9
 P 10100 6125
 F 0 "C10" H 9850 6200 60  0000 L CNN
-F 1 "100uF/10V" H 10128 6205 60  0000 L CNN
+F 1 "100uF/10V" V 10375 5700 60  0000 L CNN
 F 2 "C_1210_3225Metric" H 10000 5725 60  0001 C CNN
 F 3 "https://atta.szlcsc.com/upload/public/pdf/source/20160103/1457707710659.pdf" H 10050 5625 60  0001 C CNN
 F 4 "SAMSUNG(三星)" H 10700 5725 50  0001 C CNN "Manufacturer"
