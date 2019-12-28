@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "H7PI"
-Date "2019-11-23"
-Rev "0.1"
+Date "2019-12-28"
+Rev "0.3"
 Comp "HTCTEK"
 Comment1 "fuhua-chen"
 Comment2 "fuhua-chen"
@@ -992,9 +992,9 @@ F 3 "" H 9650 4950 50  0000 C CNN
 	1    9650 4950
 	1    0    0    -1  
 $EndComp
-Text Label 9200 4200 0    50   ~ 0
+Text Label 8550 4600 2    50   ~ 0
 USB_N
-Text Label 9200 4300 0    50   ~ 0
+Text Label 8650 4600 0    50   ~ 0
 USB_P
 $Comp
 L fuse:0458002.DR F2
@@ -1087,13 +1087,6 @@ F 7 "C181781" H 9050 6450 50  0001 C CNN "Sku"
 $EndComp
 Text Label 7675 5700 2    50   ~ 0
 VBUS
-Wire Wire Line
-	8250 5700 8125 5700
-Wire Wire Line
-	8250 5900 8125 5900
-Wire Wire Line
-	8125 5900 8125 5700
-Connection ~ 8125 5700
 $Comp
 L capacitor:0402B104K500NT C8
 U 1 1 5E2E9FB9
@@ -1111,7 +1104,6 @@ F 7 "C110251" H 8125 5975 50  0001 C CNN "Sku"
 $EndComp
 Wire Wire Line
 	8125 5975 8125 5900
-Connection ~ 8125 5900
 Wire Wire Line
 	8125 6225 8125 6325
 Wire Wire Line
@@ -1223,8 +1215,6 @@ Wire Wire Line
 Wire Wire Line
 	10350 6325 10350 6225
 Connection ~ 10100 6325
-Wire Wire Line
-	7675 5700 8125 5700
 Text Label 11075 5700 2    50   ~ 0
 3V3
 $Comp
@@ -2018,8 +2008,6 @@ Wire Wire Line
 	1775 7075 2175 7075
 Wire Wire Line
 	2125 6375 1775 6375
-NoConn ~ 10550 4225
-NoConn ~ 10550 4325
 NoConn ~ 10550 4425
 NoConn ~ 9675 4400
 $Comp
@@ -2279,4 +2267,85 @@ Wire Wire Line
 Wire Wire Line
 	9050 5700 9450 5700
 Connection ~ 9450 5700
+Wire Wire Line
+	7925 5900 7925 5700
+Connection ~ 7925 5900
+Connection ~ 7925 5700
+Wire Wire Line
+	7925 5700 8250 5700
+Wire Wire Line
+	8250 5900 8200 5900
+Wire Wire Line
+	8200 5900 8200 5825
+Wire Wire Line
+	8200 5825 7725 5825
+Wire Wire Line
+	7275 5700 7275 5825
+Wire Wire Line
+	7275 5825 7350 5825
+Wire Wire Line
+	7275 5700 7925 5700
+Wire Wire Line
+	7725 6275 7725 6325
+Wire Wire Line
+	7725 6325 7925 6325
+Connection ~ 7925 6325
+Wire Wire Line
+	7725 5925 7725 5825
+Connection ~ 7725 5825
+Wire Wire Line
+	7725 5825 7700 5825
+$Comp
+L resistor:0402WGF1003TCE R16
+U 1 1 5E1CA2BF
+P 7500 5825
+F 0 "R16" H 7350 5750 60  0000 C CNN
+F 1 "100k" H 7575 5750 60  0000 C CNN
+F 2 "R_0402_1005Metric" H 8500 6125 60  0001 C CNN
+F 3 "" H 7750 6475 60  0001 C CNN
+F 4 "UniOhm" H 7500 6025 50  0001 C CNN "Manufacturer"
+F 5 "0402WGF1003TCE" H 7600 6125 50  0001 C CNN "PartNumber"
+F 6 "https://item.szlcsc.com/26484.html" H 7700 6225 50  0001 C CNN "Supplier"
+F 7 "C25741" H 7150 6325 50  0001 C CNN "Sku"
+	1    7500 5825
+	1    0    0    -1  
+$EndComp
+$Comp
+L resistor:0402WGF3302TCE R17
+U 1 1 5E1CAC33
+P 7725 6075
+F 0 "R17" V 7725 5825 60  0000 L CNN
+F 1 "33k" V 7800 5825 60  0000 L CNN
+F 2 "R_0402_1005Metric" H 8725 6375 60  0001 C CNN
+F 3 "https://atta.szlcsc.com/upload/public/pdf/source/20170920/C25778_1505901538742983352.pdf" H 7975 6725 60  0001 C CNN
+F 4 "UniOhm" H 7725 6275 50  0001 C CNN "Manufacturer"
+F 5 "0402WGF3302TCE" H 7825 6375 50  0001 C CNN "PartNumber"
+F 6 "https://item.szlcsc.com/26522.html" H 7925 6475 50  0001 C CNN "Supplier"
+F 7 "C25779" H 7375 6575 50  0001 C CNN "Sku"
+	1    7725 6075
+	0    1    1    0   
+$EndComp
+$Comp
+L connector:Header_1x2 J10
+U 1 1 5E1ECC8C
+P 8550 4450
+F 0 "J10" H 8730 4446 60  0000 L CNN
+F 1 "DNP" H 8550 4575 60  0000 L CNN
+F 2 "PinHeader_1x02_P2.54mm_Vertical" H 8450 4550 60  0001 C CNN
+F 3 "" H 8550 4450 60  0001 C CNN
+	1    8550 4450
+	1    0    0    -1  
+$EndComp
+Text Label 9200 4200 0    50   ~ 0
+USB_N
+Text Label 9200 4300 0    50   ~ 0
+USB_P
+Text Label 10375 4225 0    50   ~ 0
+USB_N
+Text Label 10375 4325 0    50   ~ 0
+USB_P
+Wire Wire Line
+	10550 4325 10375 4325
+Wire Wire Line
+	10375 4225 10550 4225
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-16427716807440293
+16424562369708738
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -63392,13 +63392,6 @@ SOD-882
 2
 2
 Pinno
-SOIC-16_1EP_3.9x9.9mm_P1.27mm
-SOIC, 16 Pin (JEDEC MS-012AC, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SOIC SO
-0
-17
-17
-Pinno
 SOP-8P_Pitch1.27mm_1EP_4.9x6.0mm
 
 
@@ -63447,13 +63440,6 @@ Switch_ZGY808TP(ITR)_ Chau Light_Through Hole
 0
 4
 4
-Pinno
-TFT_ZJY114IPS_1.14Inch_135x240Pixels_17.6x31.0x1.6mm
-中景园LH114T-IG01 is a 135RGBX240 dot-matrix TFT LCD module. This module is composed of a TFT LCD
-TFT
-0
-13
-13
 Pinno
 Temperature_Humidity_Sensor_ASAIR_AHT10_4x5x1.6mm
 
