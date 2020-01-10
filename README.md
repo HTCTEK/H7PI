@@ -1,9 +1,9 @@
 # H7PI
 
 #### 语言/Language
-中文         ：[中文 wiki](https://github.com/PinoDM/H7PI/blob/master/doc/wiki/introduction.md?raw=true)
+中文         ：[中文 wiki](https://github.com/PinoDM/H7PI/blob/master/doc/wiki/introduction.md)
 
-English      ：[English wiki](https://github.com/PinoDM/H7PI/blob/master/doc/wiki/introduction_en.md?raw=true)
+English      ：[English wiki](https://github.com/PinoDM/H7PI/blob/master/doc/wiki/introduction_en.md)
 
 #### H7PI设计初衷
 H7PI的设计初衷是为了做一个通用平台，在这个设计上，按照一个场景一个应用的模式扩展出其他扩展功能，同时实现如代码复用一般的硬件复用。
@@ -14,7 +14,7 @@ H7PI的设计初衷是为了做一个通用平台，在这个设计上，按照�
 
 #### 兼容树莓派接口
 
-![与PI Zero同台](https://github.com/PinoDM/H7PI/blob/master/doc/pic/wpz.jpg?raw=true)
+![与PI Zero同台](https://github.com/PinoDM/H7PI/blob/master/doc/pic/wp.jpg?raw=true)
 
 
 #### Pi Zero同款板形设计

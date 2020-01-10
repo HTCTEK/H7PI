@@ -1,9 +1,9 @@
 # H7PI
 
 #### 语言/Language
-中文         ：[中文 wiki](https://github.com/PinoDM/H7PI/blob/master/doc/wiki/introduction.md?raw=true)
+中文         ：[中文 wiki](https://github.com/PinoDM/H7PI/blob/master/doc/wiki/introduction.md)
 
-English      ：[English wiki](https://github.com/PinoDM/H7PI/blob/master/doc/wiki/introduction_en.md?raw=true)
+English      ：[English wiki](https://github.com/PinoDM/H7PI/blob/master/doc/wiki/introduction_en.md)
 
 #### What's H7PI
 H7PI was designed to be a common platform，implementing hardware reuse just like code reuse. It can extend other function boards for most applications
@@ -13,7 +13,7 @@ H7PI was designed to be a common platform，implementing hardware reuse just lik
 
 
 #### Compatible with Raspberry Pi
-![With PI Zero](https://github.com/PinoDM/H7PI/blob/master/doc/pic/wpz.jpg?raw=true)
+![With PI Zero](https://github.com/PinoDM/H7PI/blob/master/doc/pic/wp.jpg?raw=true)
 
 
 #### The Same Outline design with Pi Zero
