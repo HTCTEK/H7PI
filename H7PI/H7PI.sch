@@ -6,9 +6,9 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "H7PI"
-Date "2019-12-28"
-Rev "0.3"
-Comp "HTCTEK"
+Date "2020-01-16"
+Rev "0.4"
+Comp "PinoDM"
 Comment1 "fuhua-chen"
 Comment2 "fuhua-chen"
 Comment3 ""
@@ -885,79 +885,73 @@ Wire Wire Line
 Text Label 6150 3475 0    50   ~ 0
 3V3
 Text Label 6150 3575 0    50   ~ 0
-PI_SDA1
-Text Label 6150 3675 0    50   ~ 0
-PI_SCL1
-Text Label 6150 3775 0    50   ~ 0
-PI_GPIO7
+SDA1
 Text Label 6150 3875 0    50   ~ 0
 GND
 Text Label 6150 3975 0    50   ~ 0
-PI_GPIO0
+D0
 Text Label 6150 4075 0    50   ~ 0
-PI_GPIO2
+D2
 Text Label 6150 4175 0    50   ~ 0
-PI_GPIO3
+D3
 Text Label 6150 4275 0    50   ~ 0
 3V3
 Text Label 6150 4375 0    50   ~ 0
-PI_MOSI
+MOSI
 Text Label 6150 4475 0    50   ~ 0
-PI_MISO
+MISO
 Text Label 6150 4575 0    50   ~ 0
-PI_SCK
+SCK
 Text Label 6150 4675 0    50   ~ 0
 GND
 Text Label 6150 4775 0    50   ~ 0
-PI_SDA0
+SDA0
 Text Label 6150 4875 0    50   ~ 0
-PI_GPIO21
+A0
 Text Label 6150 4975 0    50   ~ 0
-PI_GPIO22
+A1
 Text Label 6150 5075 0    50   ~ 0
-PI_GPIO23
+A2
 Text Label 6150 5175 0    50   ~ 0
-PI_GPIO24
+A3
 Text Label 6150 5275 0    50   ~ 0
-PI_GPIO25
+A4
 Text Label 6150 5375 0    50   ~ 0
 GND
 Text Label 7575 3675 2    50   ~ 0
 GND
-Text Label 7575 3775 2    50   ~ 0
-PI_TXD
 Text Label 7575 3875 2    50   ~ 0
-PI_RXD
+RX0
 Text Label 7575 3975 2    50   ~ 0
-PI_GPIO1
+D1
 Text Label 7575 4075 2    50   ~ 0
 GND
 Text Label 7575 4175 2    50   ~ 0
-PI_GPIO4
+D4
 Text Label 7575 4275 2    50   ~ 0
-PI_GPIO5
+D5
 Text Label 7575 4375 2    50   ~ 0
 GND
 Text Label 7575 4475 2    50   ~ 0
-PI_GPIO6
+D6
 Text Label 7575 4575 2    50   ~ 0
-PI_CE0
+CE0
 Text Label 7575 4675 2    50   ~ 0
-PI_CE1
+CE1
 Text Label 7575 4775 2    50   ~ 0
-PI_SCL0
+SCL0
 Text Label 7575 4875 2    50   ~ 0
 GND
 Text Label 7575 4975 2    50   ~ 0
-PI_GPIO26
+A5
 Text Label 7575 5075 2    50   ~ 0
 GND
 Text Label 7575 5175 2    50   ~ 0
-PI_GPIO27
+A6
 Text Label 7575 5275 2    50   ~ 0
-PI_GPIO28
+A7
 Text Label 7575 5375 2    50   ~ 0
-PI_GPIO29
+D29
 $Comp
 L connector:microUSB J3
 U 1 1 5DECD657
@@ -992,9 +986,9 @@ F 3 "" H 9650 4950 50  0000 C CNN
 	1    9650 4950
 	1    0    0    -1  
 $EndComp
-Text Label 8550 4600 2    50   ~ 0
+Text Label 675  7275 0    50   ~ 0
 USB_N
-Text Label 8650 4600 0    50   ~ 0
+Text Label 2125 7275 2    50   ~ 0
 USB_P
 $Comp
 L fuse:0458002.DR F2
@@ -1451,19 +1445,19 @@ USB_N
 Wire Wire Line
 	9650 4500 9650 4775
 Text Label 3050 750  3    50   ~ 0
-PI_SDA0
+SDA0
 Wire Wire Line
 	3050 750  3050 1225
 Wire Wire Line
 	3150 1225 3150 750 
 Text Label 5500 2625 2    50   ~ 0
-PI_TXD
+TX0
 Wire Wire Line
 	5050 2625 5500 2625
 Wire Wire Line
 	5050 2525 5500 2525
 Text Label 5500 2525 2    50   ~ 0
-PI_RXD
+RX0
 Wire Wire Line
 	3850 5025 3850 5475
 Wire Wire Line
@@ -1473,11 +1467,11 @@ Wire Wire Line
 Wire Wire Line
 	4150 5025 4150 5475
 Text Label 3950 5475 1    50   ~ 0
-PI_SCK
+SCK
 Text Label 4050 5475 1    50   ~ 0
-PI_MISO
+MISO
 Text Label 4150 5475 1    50   ~ 0
-PI_MOSI
+MOSI
 Text Label 5075 7250 0    50   ~ 0
 TF_DATA0
 Text Label 5075 7350 0    50   ~ 0
@@ -1542,19 +1536,17 @@ TF_CDN
 Wire Wire Line
 	5550 3925 5050 3925
 Text Label 3850 5475 1    50   ~ 0
-PI_CE0
+CE0
 Wire Wire Line
 	4250 5025 4250 5475
 Text Label 4250 5475 1    50   ~ 0
-PI_CE1
+CE1
 Wire Wire Line
 	4350 5025 4350 5475
 Wire Wire Line
 	4450 5025 4450 5475
-Text Label 4350 5475 1    50   ~ 0
-PI_SCL1
 Text Label 4450 5475 1    50   ~ 0
-PI_SDA1
+SDA1
 $Comp
 L powerflag:PWR_FLAG #FLG0101
 U 1 1 5ED6C65A
@@ -1617,17 +1609,17 @@ Wire Wire Line
 Wire Wire Line
 	2050 2525 1725 2525
 Text Label 1725 2025 0    50   ~ 0
-PI_GPIO0
+D0
 Text Label 1725 2125 0    50   ~ 0
-PI_GPIO1
+D1
 Text Label 1725 2225 0    50   ~ 0
-PI_GPIO2
+D2
 Text Label 1725 2325 0    50   ~ 0
-PI_GPIO3
+D3
 Text Label 1725 2525 0    50   ~ 0
-PI_GPIO4
+D4
 Text Label 1650 3325 0    50   ~ 0
-PI_GPIO5
+D5
 Wire Wire Line
 	2050 2425 1725 2425
 Text Label 1725 2425 0    50   ~ 0
@@ -1645,31 +1637,31 @@ Wire Wire Line
 Wire Wire Line
 	2950 5025 2950 5500
 Text Label 1650 4225 0    50   ~ 0
-PI_GPIO6
+D6
 Text Label 1650 4325 0    50   ~ 0
-PI_GPIO7
+D7
 Text Label 2550 5500 1    50   ~ 0
-PI_GPIO21
+A0
 Text Label 2650 5500 1    50   ~ 0
-PI_GPIO22
+A1
 Text Label 2750 5500 1    50   ~ 0
-PI_GPIO23
+A2
 Wire Wire Line
 	3150 5025 3150 5500
 Wire Wire Line
 	3250 5025 3250 5500
 Text Label 2850 5500 1    50   ~ 0
-PI_GPIO24
+A3
 Text Label 2950 5500 1    50   ~ 0
-PI_GPIO25
+A4
 Text Label 3150 5500 1    50   ~ 0
-PI_GPIO27
+A6
 Wire Wire Line
 	5050 3825 5525 3825
 Wire Wire Line
 	5050 3725 5525 3725
 Text Label 3250 5500 1    50   ~ 0
-PI_GPIO28
+A7
 $Comp
 L mosfet:CJ2102 Q2
 U 1 1 5DB6BE6E
@@ -1852,13 +1844,13 @@ Wire Wire Line
 Text Label 2125 6275 2    50   ~ 0
 VBUS
 Text Label 5525 3825 2    50   ~ 0
-PI_GPIO29
+D29
 Text Label 5525 3725 2    50   ~ 0
-IO1
+D8
 Wire Wire Line
 	5050 3425 5525 3425
 Text Label 5525 3425 2    50   ~ 0
-IO2
+D9
 Wire Wire Line
 	5050 3125 5525 3125
 Text Label 5525 3125 2    50   ~ 0
@@ -1870,95 +1862,91 @@ TFT_RST
 Wire Wire Line
 	5050 2725 5525 2725
 Text Label 5525 2725 2    50   ~ 0
-IO3
+D10
 Wire Wire Line
 	5050 2225 5525 2225
 Text Label 5525 2225 2    50   ~ 0
-IO4
+D11
 Wire Wire Line
 	4750 1225 4750 750 
 Text Label 4750 750  3    50   ~ 0
-IO5
+D12
 Wire Wire Line
 	4650 1225 4650 750 
 Text Label 4650 750  3    50   ~ 0
-IO6
+D13
 Wire Wire Line
 	4450 1225 4450 750 
 Text Label 4450 750  3    50   ~ 0
-IO7
+D14
 Wire Wire Line
 	4350 1225 4350 750 
-Text Label 4350 750  3    50   ~ 0
-IO8
 Wire Wire Line
 	4050 1225 4050 750 
 Text Label 4050 750  3    50   ~ 0
-IO9
+D16
 Wire Wire Line
 	3950 1225 3950 750 
 Text Label 3950 750  3    50   ~ 0
-IO10
+D17
 Wire Wire Line
 	3650 1225 3650 750 
 Text Label 3650 750  3    50   ~ 0
-IO11
+D18
 Wire Wire Line
 	3550 1225 3550 750 
 Text Label 3550 750  3    50   ~ 0
-IO12
+D19
 Wire Wire Line
 	3250 1225 3250 750 
 Text Label 3250 750  3    50   ~ 0
-IO13
+D20
 Wire Wire Line
 	2850 1225 2850 750 
-Text Label 2850 750  3    50   ~ 0
-PI_SCL0
 Wire Wire Line
 	2750 1225 2750 750 
 Text Label 2750 750  3    50   ~ 0
-IO14
+D21
 Wire Wire Line
 	2650 1225 2650 750 
 Text Label 2650 750  3    50   ~ 0
-IO15
+D22
 Wire Wire Line
 	2550 1225 2550 750 
 Text Label 2550 750  3    50   ~ 0
-IO16
+D23
 Wire Wire Line
 	1075 6375 675  6375
 Text Label 675  6375 0    50   ~ 0
-IO1
+D8
 Wire Wire Line
 	1075 6475 675  6475
 Text Label 675  6475 0    50   ~ 0
-IO2
+D9
 Wire Wire Line
 	1075 6575 675  6575
 Text Label 675  6575 0    50   ~ 0
-IO3
+D10
 Wire Wire Line
 	1075 6675 675  6675
 Text Label 675  6675 0    50   ~ 0
-IO4
+D11
 Wire Wire Line
 	1075 6775 675  6775
 Text Label 675  6775 0    50   ~ 0
-IO5
+D12
 Wire Wire Line
 	1075 7075 675  7075
 Text Label 675  7075 0    50   ~ 0
-IO8
+D15
 Wire Wire Line
 	1075 6875 675  6875
 Text Label 675  6875 0    50   ~ 0
-IO6
+D13
 Wire Wire Line
 	1075 6975 675  6975
 Text Label 675  6975 0    50   ~ 0
-IO7
+D14
 $Comp
 L connector:Header_2x20 J5
 U 1 1 5E85E8A3
@@ -1975,37 +1963,37 @@ Wire Wire Line
 Text Label 675  7175 0    50   ~ 0
 GND
 Wire Wire Line
-	1775 7175 2175 7175
-Text Label 2175 7175 2    50   ~ 0
+	1775 7175 2125 7175
+Text Label 2125 7175 2    50   ~ 0
 GND
 Wire Wire Line
 	3050 5025 3050 5500
 Text Label 3050 5500 1    50   ~ 0
-PI_GPIO26
+A5
 Wire Wire Line
-	1775 6575 2175 6575
+	1775 6575 2125 6575
 Wire Wire Line
-	2175 6475 1775 6475
-Text Label 2175 6675 2    50   ~ 0
-IO13
+	2125 6475 1775 6475
+Text Label 2125 6675 2    50   ~ 0
+D20
 Wire Wire Line
-	1775 6675 2175 6675
-Text Label 2175 6775 2    50   ~ 0
-IO12
+	1775 6675 2125 6675
+Text Label 2125 6775 2    50   ~ 0
+D19
 Wire Wire Line
-	1775 6775 2175 6775
-Text Label 2175 6875 2    50   ~ 0
-IO11
+	1775 6775 2125 6775
+Text Label 2125 6875 2    50   ~ 0
+D18
 Wire Wire Line
-	1775 6875 2175 6875
-Text Label 2175 6975 2    50   ~ 0
-IO10
+	1775 6875 2125 6875
+Text Label 2125 6975 2    50   ~ 0
+D17
 Wire Wire Line
-	1775 6975 2175 6975
-Text Label 2175 7075 2    50   ~ 0
-IO9
+	1775 6975 2125 6975
+Text Label 2125 7075 2    50   ~ 0
+D16
 Wire Wire Line
-	1775 7075 2175 7075
+	1775 7075 2125 7075
 Wire Wire Line
 	2125 6375 1775 6375
 NoConn ~ 10550 4425
@@ -2196,24 +2184,13 @@ Wire Wire Line
 Wire Wire Line
 	1375 2625 2050 2625
 Text Label 2125 6375 2    50   ~ 0
-IO16
-Text Label 2175 6475 2    50   ~ 0
-IO15
-Text Label 2175 6575 2    50   ~ 0
-IO14
+D23
+Text Label 2125 6475 2    50   ~ 0
+D22
+Text Label 2125 6575 2    50   ~ 0
+D21
 Text Label 3150 750  3    50   ~ 0
 QSPI_CS
-$Comp
-L connector:Header_2x10 J2
-U 1 1 5D54D8C7
-P 1425 6725
-F 0 "J2" H 1425 7462 60  0000 C CNN
-F 1 "Header_2x10" H 1425 7356 60  0000 C CNN
-F 2 "PinHeader_2x10_P2.54mm_Vertical" H 1825 7425 60  0001 C CNN
-F 3 "" H 1275 7175 60  0001 C CNN
-	1    1425 6725
-	1    0    0    -1  
-$EndComp
 NoConn ~ 2050 3125
 NoConn ~ 2050 3025
 $Comp
@@ -2325,17 +2302,6 @@ F 7 "C25779" H 7375 6575 50  0001 C CNN "Sku"
 	1    7725 6075
 	0    1    1    0   
 $EndComp
-$Comp
-L connector:Header_1x2 J10
-U 1 1 5E1ECC8C
-P 8550 4450
-F 0 "J10" H 8730 4446 60  0000 L CNN
-F 1 "DNP" H 8550 4575 60  0000 L CNN
-F 2 "PinHeader_1x02_P2.54mm_Vertical" H 8450 4550 60  0001 C CNN
-F 3 "" H 8550 4450 60  0001 C CNN
-	1    8550 4450
-	1    0    0    -1  
-$EndComp
 Text Label 9200 4200 0    50   ~ 0
 USB_N
 Text Label 9200 4300 0    50   ~ 0
@@ -2348,4 +2314,31 @@ Wire Wire Line
 	10550 4325 10375 4325
 Wire Wire Line
 	10375 4225 10550 4225
+Text Label 6150 3675 0    50   ~ 0
+SCL1
+Text Label 4350 5475 1    50   ~ 0
+SCL1
+Text Label 6150 3775 0    50   ~ 0
+D7
+Text Label 7575 3775 2    50   ~ 0
+TX0
+Text Label 4350 750  3    50   ~ 0
+D15
+Text Label 2850 750  3    50   ~ 0
+SCL0
+Wire Wire Line
+	1075 7275 675  7275
+Wire Wire Line
+	1775 7275 2125 7275
+$Comp
+L connector:Header_2x11 J2
+U 1 1 5D54D8C7
+P 1425 6725
+F 0 "J2" H 1425 7462 60  0000 C CNN
+F 1 "Header_2x11" H 1425 7356 60  0000 C CNN
+F 2 "PinHeader_2x11_P2.54mm_Vertical" H 1825 7425 60  0001 C CNN
+F 3 "" H 1275 7175 60  0001 C CNN
+	1    1425 6725
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
