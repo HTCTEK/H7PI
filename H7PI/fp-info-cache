@@ -1,4 +1,4 @@
-16424562369708738
+16467225859480125
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -62923,6 +62923,13 @@ Antenna_Handsoldering_SMD
 2
 2
 Pinno
+Antenna_Walsin_RFANT3216120A5T_3.2x1.6x1.2mm
+
+
+0
+2
+2
+Pinno
 Button_BRIGHT_TSA123G100-250_12x12x10mm
 
 
@@ -63021,12 +63028,26 @@ Connector_CJT_A1251WR-S-4P_P1.25MM_4Pins_6.25x4.7x3.53mm
 6
 5
 Pinno
-Connector_CJT_A2001WR-S-2P _1x02-1MP_P2.00mm_Horizontal
-JST PH series connector, S2B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
+Connector_CJT_A2001WR-S-2P_1x02-1MP_P2.00mm_Horizontal
+
 connector JST PH top entry
 0
 4
 3
+Pinno
+Connector_CJT_A2001WR-S-4P_1x04-1MP_P2.00mm_Horizontal
+
+connector JST PH top entry
+0
+6
+5
+Pinno
+Connector_CJT_A2001WR-S-5P_1x05-1MP_P2.00mm_Horizontal
+
+connector JST PH top entry
+0
+7
+6
 Pinno
 Connector_CJT_A2001WV-2P_1x02_P2.00mm_Vertical
 
@@ -63042,7 +63063,7 @@ Connector_CJT_A2001WV-3P_1x03_P2.00mm_Vertical
 3
 3
 Pinno
-Connector_CJT_A2001WV-4P_1x4_P2.00mm_Vertical
+Connector_CJT_A2001WV-4P_1x04_P2.00mm_Vertical
 
 
 0
@@ -63056,12 +63077,61 @@ Connector_CJT_A2001WV-10P_1x10_P2.00mm_Vertical
 10
 10
 Pinno
+Connector_CJT_A2001WV-S-2P_1x02-1MP_P2.00mm_Vertical
+
+connector JST PH side entry
+0
+4
+3
+Pinno
+Connector_CJT_A2008WV-S-4P_1x04-1MP_P2.00mm_Vertical
+
+connector JST PH side entry
+0
+6
+5
+Pinno
 Connector_CR2032_SZ-QJ-WJ-CR2032-1-W_D20.19xH6.25mm
 
 
 0
 4
 2
+Pinno
+Connector_CviLux_CI0605M1HR0_1x05-1MP_P2.00mm_Horizion
+
+
+0
+7
+6
+Pinno
+Connector_CviLux_CI1504M1VR0_1x04-1MP_P1.50mm_Vertical
+
+
+0
+6
+5
+Pinno
+Connector_CviLux_CI1505M1HR0_1x05-1MP_P1.50mm_Horizontal
+
+
+0
+7
+6
+Pinno
+Connector_CviLux_CI1505M1VR0_1x05-1MP_P1.50mm_Vertical
+
+
+0
+7
+6
+Pinno
+Connector_CviLux_CI3303P1H10_1x03_P2.54mm_Horizontal
+
+
+0
+3
+3
 Pinno
 Connector_FPC_JS_AFA07-S04FCC-00_1x4-1MP_P1.0mm_DownSideContact
 
@@ -63071,6 +63141,13 @@ Connector_FPC_JS_AFA07-S04FCC-00_1x4-1MP_P1.0mm_DownSideContact
 5
 Pinno
 Connector_FPC_JS_AFC07-S24ECA-00_1x24-1MP_P0.5mm_UpSideContact
+
+
+0
+26
+25
+Pinno
+Connector_FPC_JS_AFC07-S24FCA-00_1x24-1MP_P0.5mm_DownSideContact
 
 
 0
@@ -63112,6 +63189,13 @@ Connector_MQ_Sensors_7P_D17xH15mm
 7
 7
 Pinno
+Connector_MicroSD_TF_DAWEI_CAD-209B220_11.25x5.45x1.3mm
+
+
+0
+13
+13
+Pinno
 Connector_MicroSD_TF_XKB_XKTF-015-N_14.75x17.5mm
 
 
@@ -63147,12 +63231,33 @@ Connector_USB_HRO_U-E-M5SS-Y-1_15.15x6.4x3.6mm
 9
 6
 Pinno
-Connector_XH-2.5_4P_1x4_P2.5mm_Horizontal
+Connector_USB_Micro-B_JTJ_MicroUSB-5P-0.8-Sink_9.7x5.8x2.2mm
+
+
+0
+9
+6
+Pinno
+Connector_XH-2.5_2P_1x2_P2.5mm_Horizontal
 
 
 0
 6
 5
+Pinno
+Connector_XH-2.5_4P_1x4_P2.5mm_Horizontal
+
+
+0
+4
+3
+Pinno
+Connector_XH-2.5_5P_1x5_P2.5mm_Horizontal
+
+
+0
+7
+6
 Pinno
 Encoder_EC11S-H6.5B1-16F8-20P_11.7x12x22.5mm
 
@@ -63160,6 +63265,13 @@ Encoder_EC11S-H6.5B1-16F8-20P_11.7x12x22.5mm
 0
 7
 6
+Pinno
+Filter_Common-Mode_TAIQING_WCM2012F2SF-181T04_2012_4P_2.0x1.2x1.2mm
+
+
+0
+4
+4
 Pinno
 Filter_Common-Mode_TDK_ACP3225_1210_3.2x2.5x1.9mm
 
@@ -63182,6 +63294,13 @@ Filter_Common-Mode__TDK_MCZ0806AH_0806_4P_0.85x0.65x0.45mm
 4
 4
 Pinno
+Inductor_3Pins_6x8mm
+
+
+0
+3
+3
+Pinno
 Infrared_Receiver  _Everlight_IRM-H600JW
 
 
@@ -63195,6 +63314,13 @@ LED diameter 5.0mm 2 pins
 0
 2
 2
+Pinno
+Joystick_2Axis_1Enter_25.25x19.05x19.6mm
+
+
+0
+14
+11
 Pinno
 LED_RGB_EC20-SK9822-2020_2.0X2.0X0.75mm
 
@@ -63245,11 +63371,25 @@ HTCTEK,CORE52,BLE Module
 23
 23
 Pinno
+Module_Core_8P_2x2mm
+
+
+0
+8
+8
+Pinno
 Module_H7PI_Exp_65x30mm
 
 
 0
+62
 60
+Pinno
+Module_H7PI_Exp_SMD_65x30mm
+
+
+0
+62
 60
 Pinno
 Module_NBIOT_BC20_GNSS_16x18.7x2.1mm
@@ -63385,12 +63525,33 @@ SIM_SIM-002-T6_17.2x15.3x1.25mm
 10
 7
 Pinno
+SIM_XKB_XKSIM-304_12.3x10.05x1.35mm
+
+
+0
+8
+7
+Pinno
 SOD-882
 
 
 0
 2
 2
+Pinno
+SOD-923
+
+
+0
+2
+2
+Pinno
+SOIC-16_1EP_3.9x9.9mm_P1.27mm
+SOIC, 16 Pin (JEDEC MS-012AC, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+17
+17
 Pinno
 SOP-8P_Pitch1.27mm_1EP_4.9x6.0mm
 
@@ -63420,6 +63581,13 @@ Pressure_sensor40PC
 6
 6
 Pinno
+Sensor_Thermopile_HLP_TS318-1B0814_5.34x2.7mm
+
+
+0
+5
+5
+Pinno
 Sensors_Flow_Winsen_F1012_30.5x21.8x30.5
 
 flow sensor,winsen,f1012
@@ -63441,6 +63609,13 @@ Switch_ZGY808TP(ITR)_ Chau Light_Through Hole
 4
 4
 Pinno
+TFT_ZJY114IPS_1.14Inch_135x240Pixels_17.6x31.0x1.6mm
+中景园LH114T-IG01 is a 135RGBX240 dot-matrix TFT LCD module. This module is composed of a TFT LCD
+TFT
+0
+13
+13
+Pinno
 Temperature_Humidity_Sensor_ASAIR_AHT10_4x5x1.6mm
 
 
@@ -63461,6 +63636,13 @@ Copal Varistor top adjustment
 0
 3
 3
+Pinno
+Varistor_EVERSON_RP12S103BA_10k_4H_11x12x2.75mm
+
+
+0
+4
+4
 Potentiometer_SMD
 Potentiometer_ACP_CA6-VSMD_Vertical
 Potentiometer, vertical, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf

@@ -1,4 +1,4 @@
-update=2019/11/23 11:25:28
+update=2020/3/19 21:20:07
 version=1
 last_client=kicad
 [general]
@@ -12,6 +12,16 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=D:/dev/kicad-lib/pinno-lib/template/pinno_frame_a4.kicad_wks
+PlotDirectoryName=./H7PI.pdf
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=D:/kicad-lib/pinno-lib/template/pinno_frame_a4.kicad_wks
@@ -33,10 +43,11 @@ TrackWidth2=0.156
 TrackWidth3=0.2
 TrackWidth4=0.3
 TrackWidth5=0.5
-TrackWidth6=0.7
-TrackWidth7=0.8
-TrackWidth8=1
-TrackWidth9=2
+TrackWidth6=0.5
+TrackWidth7=0.7
+TrackWidth8=0.8
+TrackWidth9=1
+TrackWidth10=2
 ViaDiameter1=0.5
 ViaDrill1=0.3
 ViaDiameter2=0.5
@@ -69,7 +80,7 @@ OthersTextUpright=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
@@ -248,13 +259,3 @@ uViaDrill=0.2
 dPairWidth=0.2
 dPairGap=0.152
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=D:/dev/kicad-lib/pinno-lib/template/pinno_frame_a4.kicad_wks
-PlotDirectoryName=./H7PI.pdf
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
