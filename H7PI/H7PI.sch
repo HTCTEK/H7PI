@@ -6,9 +6,9 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "H7PI"
-Date "2019-12-28"
-Rev "0.3"
-Comp "HTCTEK"
+Date "2020-01-16"
+Rev "0.4"
+Comp "PinoDM"
 Comment1 "fuhua-chen"
 Comment2 "fuhua-chen"
 Comment3 ""
