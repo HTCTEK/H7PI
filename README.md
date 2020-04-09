@@ -1,7 +1,7 @@
 # H7PI
 
 ## 量产版本历史
-[v0.2](https://gitee.com/htctek/H7PI/tree/bf5159e9c3666d05ed6d5055ce2db61eb0288070) 特点：带8bits LCD接口
+[v0.2](https://gitee.com/htctek/H7PI/tree/bf5159e9c3666d05ed6d5055ce2db61eb0288070) 特点：带8bits LCD接口    
 [v1.0](https://gitee.com/htctek/H7PI/tree/e8b1aa18095ffa30b805f85c88335dfa602a2d0a) 特点：除了SD卡座，QSPI Flash引脚，SPI flash/psram引脚外，引出所有引脚，使用type-c接口，取消8bits LCD接口。
 
 
