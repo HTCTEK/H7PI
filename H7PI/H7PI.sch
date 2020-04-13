@@ -292,7 +292,7 @@ VBUS
 Text Label 5600 3750 2    50   ~ 0
 QSPI_IO3
 $Comp
-L crystal:S2232000082060 X2
+L crystal:S3232000121040 X2
 U 1 1 5F0A57CE
 P 950 3225
 F 0 "X2" V 875 3400 60  0000 L CNN
@@ -308,18 +308,18 @@ F 8 "￥0.4312" H 950 3225 50  0001 C CNN "Price"
 	0    1    1    0   
 $EndComp
 $Comp
-L capacitor:0402CG180J500NT C3
+L capacitor:0402CG120J500NT C3
 U 1 1 5F0A653D
 P 775 2950
 F 0 "C3" H 650 2900 60  0000 C CNN
-F 1 "8pF" H 675 2825 60  0000 C CNN
+F 1 "12pF" H 675 2825 60  0000 C CNN
 F 2 "C_0402_1005Metric" H 675 2550 60  0001 C CNN
-F 3 "https://atta.szlcsc.com/upload/public/pdf/source/20170923/C1549_1506149266585988356.pdf" H 725 2450 60  0001 C CNN
+F 3 "https://atta.szlcsc.com/upload/public/pdf/source/20170923/C1547_1506149265711988354.pdf" H 725 2450 60  0001 C CNN
 F 4 "Fenghua" H 1375 2550 50  0001 C CNN "Manufacturer"
-F 5 "0402CG180J500NT" H 925 2650 50  0001 C CNN "PartNumber"
-F 6 "https://item.szlcsc.com/1901.html" H 1025 2750 50  0001 C CNN "Supplier"
-F 7 "C1549" H 775 2850 50  0001 C CNN "Sku"
-F 8 "￥0.006839" H 775 2950 50  0001 C CNN "Price"
+F 5 "0402CG120J500NT" H 925 2650 50  0001 C CNN "PartNumber"
+F 6 "https://item.szlcsc.com/1899.html" H 1025 2750 50  0001 C CNN "Supplier"
+F 7 "C1547" H 775 2850 50  0001 C CNN "Sku"
+F 8 "￥0.008293" H 775 2950 50  0001 C CNN "Price"
 	1    775  2950
 	1    0    0    -1  
 $EndComp
@@ -328,18 +328,18 @@ Wire Wire Line
 Wire Wire Line
 	950  2950 950  3025
 $Comp
-L capacitor:0402CG180J500NT C5
+L capacitor:0402CG120J500NT C5
 U 1 1 5F0EB676
 P 775 3450
 F 0 "C5" H 650 3500 60  0000 C CNN
-F 1 "8pF" H 675 3600 60  0000 C CNN
+F 1 "12pF" H 675 3600 60  0000 C CNN
 F 2 "C_0402_1005Metric" H 675 3050 60  0001 C CNN
-F 3 "https://atta.szlcsc.com/upload/public/pdf/source/20170923/C1549_1506149266585988356.pdf" H 725 2950 60  0001 C CNN
+F 3 "https://atta.szlcsc.com/upload/public/pdf/source/20170923/C1547_1506149265711988354.pdf" H 725 2950 60  0001 C CNN
 F 4 "Fenghua" H 1375 3050 50  0001 C CNN "Manufacturer"
-F 5 "0402CG180J500NT" H 925 3150 50  0001 C CNN "PartNumber"
-F 6 "https://item.szlcsc.com/1901.html" H 1025 3250 50  0001 C CNN "Supplier"
-F 7 "C1549" H 775 3350 50  0001 C CNN "Sku"
-F 8 "￥0.006839" H 775 3450 50  0001 C CNN "Price"
+F 5 "0402CG120J500NT" H 925 3150 50  0001 C CNN "PartNumber"
+F 6 "https://item.szlcsc.com/1899.html" H 1025 3250 50  0001 C CNN "Supplier"
+F 7 "C1547" H 775 3350 50  0001 C CNN "Sku"
+F 8 "￥0.008293" H 775 3450 50  0001 C CNN "Price"
 	1    775  3450
 	1    0    0    -1  
 $EndComp
